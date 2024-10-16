@@ -1,0 +1,16 @@
+{
+    "name": "electron-cpp",
+    "version": "1.0.0",
+    "main": "main.js",
+    "private": true,
+    "gypfile": true,
+    "scripts": {
+        "run_node": "node index.js",
+        "start": "electron ."
+    },
+    "dependencies": {
+        "electron": "^33.0.0",
+        "node-addon-api": "*",
+        "bindings": "*"
+    }
+}
